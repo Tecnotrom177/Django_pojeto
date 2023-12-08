@@ -8,13 +8,3 @@ def home(request):
     return render(request, 'recipes/home.html', context={
         'name': 'Tecnotrom',
     })
-
-
-def sobre(request):
-    return HttpResponse('Sobre')
-    # return HTTP Response
-
-
-def contato(request):
-    return HttpResponse('Contato')
-    # return HTTP Response
